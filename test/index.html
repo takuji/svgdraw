@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG Draw</title>
+  <script type="text/javascript" src="d3.min.js"></script>
+  <script type="text/javascript" src="../dist/svgdraw.js"></script>
+  <style type="text/css">
+  svg {
+    border: 1px solid green;
+  }
+  </style>
+</head>
+<body>
+<svg id="svgdraw"></svg>
+
+<script type="text/javascript">
+  var wb = new SVGDraw({el: "#svgdraw"});
+</script>
+</body>
+</html>
